@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="oberthur-ui-test-suite" verbose="1" >
+    <parameter name="profileName" value="adminUser"/>
+
+
+    <suite-files>
+        <suite-file path="smokeTest.xml"/>
+    </suite-files>
+</suite>
+

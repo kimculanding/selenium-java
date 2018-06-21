@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="oberthur-ui-test-suite-smoke" verbose="1" >
+    <parameter name="profileName" value="adminUser"/>
+
+    <test name="SmokeTest">
+        <classes>
+            <class name="com.oberthur.tests.firsttest.SmokeTest" />
+        </classes>
+    </test>
+</suite>
+
